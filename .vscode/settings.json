@@ -1,0 +1,31 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "psi-header.changes-tracking": {
+    "autoHeader": "off",
+    "exclude": ["markdown", "json"],
+    "isActive": true
+  },
+  "psi-header.lang-config": [
+    {
+      "begin": "/**",
+      "end": " */",
+      "language": "javascript",
+      "prefix": " * "
+    },
+    {
+      "language": "typescript",
+      "mapTo": "javascript"
+    }
+  ],
+  "psi-header.templates": [
+    {
+      "language": "*",
+      "template": [
+        "This file is part of the vercel project.",
+        "@author <<author>> <<<authoremail>>>"
+      ]
+    }
+  ]
+}
