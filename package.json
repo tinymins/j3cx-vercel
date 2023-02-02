@@ -1,0 +1,44 @@
+{
+  "name": "vercel-j3cx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "eslint": "eslint \"**/*.{js,jsx,ts,tsx,json}\" --format pretty"
+  },
+  "dependencies": {
+    "got": "11",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/eslint-parser": "^7.19.1",
+    "@types/glob": "^7.2.0",
+    "@types/md5": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "@vercel/build-utils": "^4.1.0",
+    "@vercel/frameworks": "^1.0.1",
+    "@vercel/node": "^2.1.0",
+    "@vercel/routing-utils": "^1.13.4",
+    "eslint": "^8.30.0",
+    "eslint-config-lvmcn": "0.0.57",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-etc": "^2.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "glob": "^8.0.3",
+    "nodemon": "^2.0.16",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.5"
+  }
+}

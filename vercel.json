@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/public/index.html"
+    }
+  ],
+  "outputDirectory": "."
+}
