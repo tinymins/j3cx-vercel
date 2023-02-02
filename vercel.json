@@ -4,6 +4,10 @@
       "handle": "filesystem"
     },
     {
+      "src": "/api/launcher.md5",
+      "dest": "/api/launcher?.md5"
+    },
+    {
       "src": "/(.*)",
       "status": 404,
       "dest": "/public/index.html"
