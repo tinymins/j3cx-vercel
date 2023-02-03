@@ -82,8 +82,8 @@ export default async (req: VercelRequest, res: VercelResponse) => {
       })),
     );
     const contentJson: LauncherJSON = {
-      GameConfigUrls: [],
-      InnerGameConfigUrls: [],
+      GameConfigUrls: [''],
+      InnerGameConfigUrls: [''],
       GameLibrary: [],
     };
     for (const c of contents) {
