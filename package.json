@@ -35,7 +35,6 @@
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-unicorn": "^44.0.2",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-webpack-plugin": "^3.2.0",
     "glob": "^8.0.3",
     "nodemon": "^2.0.16",
     "rimraf": "^3.0.2",
