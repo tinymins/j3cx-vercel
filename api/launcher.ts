@@ -88,7 +88,8 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     };
     for (const c of contents) {
       const data = JSON.parse(c) as LauncherJSON;
-      Object.assign(contentJson, data, contentJson);
+      const prevContentJson = { ...contentJson };
+      Object.assign(contentJson, data, prevContentJson);
       for (const game of data.GameLibrary) {
         if (contentJson.GameLibrary.some(g => g.AppCode === game.AppCode)) {
           continue;
